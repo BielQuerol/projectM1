@@ -1,0 +1,66 @@
+
+
+
+html{
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 15px;
+}
+header       {
+    background-color:#F02E92 ;
+}
+.heading     {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-between;
+}
+.heading img  {
+    width: 150px ;
+}
+.bar          {
+    list-style: none;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: space-around;
+    color:  blanchedalmond;
+    padding: 20px ;
+}
+li a{
+    color: blanchedalmond ;
+    font-weight: bold;
+    margin: 20px ;
+    text-decoration:none;
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+.instructions    {
+    text-align: center;
+    background-color:#574E4D;
+    color:blanchedalmond;
+    
+
+}
+.containermenu     {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: space-around;
+}
+.containeritems     {
+
+}
