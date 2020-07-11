@@ -1,14 +1,62 @@
 
+@media (min-width: 320px) {
+    html {
+      font-size: 15px;
+    }
+}
 
-
+@media (min-width: 425px) {
+        html {
+          font-size: 17px;
+        } 
+    }
+@media (min-width: 500px) {
+        html {
+          font-size: 21px;
+        } 
+        .heading     {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+            align-content: space-between;
+        }
+        .bar          {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+            align-content: space-around;
+            color:  blanchedalmond;
+            
+        }  
+    }
+@media (min-width: 700px) {
+    html                   {
+        font-size: 25px;
+    } 
+}      
 html{
     font-family: 'Arimo', sans-serif;
     font-weight: 400;
     line-height: normal;
-    font-size: 15px;
+    
+}
+h1           {
+    font-size: 2rem;
+}
+
+h2           {
+    font-size: 1.5rem;
 }
 header       {
-    background-color:#F02E92 ;
+    background-color: black ;
+    
+    
+
 }
 .heading     {
     display: flex;
@@ -16,7 +64,8 @@ header       {
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	align-items: center;
-	align-content: space-between;
+    align-content: space-between;
+
 }
 .heading img  {
     width: 150px ;
@@ -27,18 +76,18 @@ header       {
 	flex-direction: column;
 	flex-wrap: nowrap;
 	justify-content: center;
-	align-items: center;
+	align-self: center;
     align-content: space-around;
     color:  blanchedalmond;
-    padding: 20px ;
+    
 }
 li a{
     color: blanchedalmond ;
     font-weight: bold;
     margin: 20px ;
     text-decoration:none;
-    font-size: 20px;
-
+    font-size: 1.2rem;
+    padding: 1.2rem ;
 }
 
 
@@ -51,7 +100,6 @@ li a{
     background-color:#574E4D;
     color:blanchedalmond;
     
-
 }
 .containermenu     {
     display: flex;
@@ -61,6 +109,4 @@ li a{
 	align-items: center;
     align-content: space-around;
 }
-.containeritems     {
 
-}
