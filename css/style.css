@@ -1,112 +1,233 @@
 
-@media (min-width: 320px) {
-    html {
-      font-size: 15px;
-    }
+.color1{
+    background:#ebdf60 ;
 }
-
-@media (min-width: 425px) {
-        html {
-          font-size: 17px;
-        } 
-    }
-@media (min-width: 500px) {
-        html {
-          font-size: 21px;
-        } 
-        .heading     {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: space-between;
-            align-items: center;
-            align-content: space-between;
-        }
-        .bar          {
-            list-style: none;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: space-between;
-            align-items: center;
-            align-content: space-around;
-            color:  blanchedalmond;
-            
-        }  
-    }
-@media (min-width: 700px) {
-    html                   {
-        font-size: 25px;
-    } 
-}      
-html{
-    font-family: 'Arimo', sans-serif;
+.color2{
+    background: #c3463e;
+}
+.color3{
+    background: #ebdf60;
+}
+.color4{
+    background: #295ba7
+}
+.header      {
+    height: 100px;
+}  
+.main        {
+    height:400px;
+}  
+.section      {
+    height: 300px;
+}
+.principal  {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+p   {
+    color: #c3463e;
+    position: absolute;
+    font-size: 1em;
+    bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+html          {
+    font-family: 'Libre Baskerville', serif;
     font-weight: 400;
     line-height: normal;
-    
 }
 h1           {
-    font-size: 2rem;
-}
+        font-size: 2rem;
+        color:#c3463e;
+        position: absolute;
+        margin-left: 250px;
+        top: 10px;
 
+}
 h2           {
+        font-size: 1.5rem;
+        color:#c3463e;
+       
+        font-weight: bold ;
+}
+.login h2    {
     font-size: 1.5rem;
+    color:#c3463e;
 }
-header       {
-    background-color: black ;
-    
-    
-
+h3           {
+    font-size: 1rem;
+    color: white;
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-right: 100px;
 }
-.heading     {
+.headcontainer         {
     display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
+    flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-    align-content: space-between;
-
+    align-content: stretch;
+    background-color:#c3463e ;
 }
-.heading img  {
-    width: 150px ;
+.headcontainer img  {
+    width: 100px;
 }
-.bar          {
+.headitem {
     list-style: none;
     display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-self: center;
-    align-content: space-around;
-    color:  blanchedalmond;
-    
+    justify-content: space-between;
+    align-items: flex-end;
 }
-li a{
-    color: blanchedalmond ;
-    font-weight: bold;
-    margin: 20px ;
-    text-decoration:none;
-    font-size: 1.2rem;
-    padding: 1.2rem ;
+nav a   {
+    font-size: 20px;
+    color: #1A1A1A;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:white;
 }
 
+/*Botones state of mind*/
 
-
-
-
-
-.instructions    {
+/*sad*/
+.myButton {
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Libre Baskerville';
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+	background-color:#eb675e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}	
+/*angry*/
+.myButton2 {
+	box-shadow:inset 0px 39px 0px -24px #e2d520;
+	background-color:#e2d520;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Libre Baskerville';
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+	background-color:#eb675e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}	
+/* happy*/
+.myButton3 {
+	box-shadow:inset 0px 39px 0px -24px #4ce053;
+	background-color:#44e768;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Libre Baskerville';
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+	background-color:#eb675e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}	
+/*login*/
+.signup, .login{
+    margin-top: 85px;
     text-align: center;
-    background-color:#574E4D;
-    color:blanchedalmond;
-    
-}
-.containermenu     {
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-    align-content: space-around;
 }
 
+.form-wrapper{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-wrapper > form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+}
+
+.message-container{
+    width: 100%;
+    max-width: 300px;
+}
+
+
+.message-container p{
+    background-color:#ebdf60 ;
+    padding: 20px;
+    margin: 10px 0;
+    color: black;
+
+}
+
+.message-container p.correct-message {
+    background-color: rgb(47, 164, 93);
+    box-shadow: 0 0 10px #dbf1c1;
+}
+/*  botón login */
+.myBtn {
+	box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+	background:linear-gradient(to bottom, #eb5a50 5%, #e4685d 100%);
+	background-color:#eb5a50;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#fffaff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myBtn:hover {
+	background:linear-gradient(to bottom, #e4685d 5%, #eb5a50 100%);
+	background-color:#e4685d;
+}
+.myBtn:active {
+	position:relative;
+    top:1px;
+    
+}
+#result    {
+    background-color: black ;
+}
+#result >  h2  {
+    margin-top: 10px;
+    margin-left: 900px;
+    
+}
