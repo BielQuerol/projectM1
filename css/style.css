@@ -159,7 +159,12 @@ nav a   {
 	top:1px;
 }	
 /*login*/
-.signup, .login{
+.signup {
+    margin-top: 85px;
+    text-align: center;
+}
+
+.login   {
     margin-top: 85px;
     text-align: center;
 }
