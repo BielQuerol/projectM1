@@ -47,13 +47,13 @@ class Validator {
 
 
              if(userDB.length > 0){
-                 usersDB.forEach{ (userObj) => {
+                 usersDB.forEach( (userObj) => {
                    //si el email ya está registrado cambia el valor a false
                     if (userObj.email === newEmail){
                     emailUnique = false;
                      }
-                 }
-             }
+                 })
+                }
          if (emailUnique) {
              //quitar el mensaje error
              delete this.errors.emailExistsError;
@@ -69,7 +69,7 @@ class Validator {
 
         //validar la longitud del password
         validatePassword = (password) =>{
-            if (password.length > 6) {
+            if (password.length > 4) {
                 // quita el mensaje de error
                 delete this.errors.passwordError;
 
@@ -110,5 +110,5 @@ class Validator {
 
 
 
-}
+
 const validator = new Validator();
