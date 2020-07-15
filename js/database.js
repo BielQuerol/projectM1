@@ -8,7 +8,7 @@ class Database {
     // convertir el string en un array
     const usersArr = JSON.parse( usersStr );
 
-    // si todavia no hay usuarios, devolver un array vacio
+    // si todavia no hay usuarios, devolver un array vacío
     if (usersArr === null) {
       return [];
     } else {
@@ -25,6 +25,8 @@ class Database {
     // actualizar el array de users
     usersArr.push(newUser);
 
+    console.log("usersArr", usersArr);
+
     // convertir el array a un string
     const usersStr = JSON.stringify(usersArr);
 
@@ -35,4 +37,4 @@ class Database {
 
 const db = new Database();
 
-console.log('db', db)
+

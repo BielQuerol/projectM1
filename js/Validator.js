@@ -5,7 +5,7 @@ class Validator {
     constructor() {
         this.invalidEmailError = 'Invalid email'
         this.emailExistsError = 'This email is already registered'
-        this.passwordError = 'Enter a password of 6 or more characters'
+        this.passwordError = 'Enter a password of 5 or more characters'
         this.repeatPasswordError = "Fields don't match"
 
         //objeto con los errores mostrados al usuario
@@ -20,7 +20,7 @@ class Validator {
         validateValidEmail = (email) =>{
            
             
-            if (this.emailIssValid(email)) {
+            if (this.emailIsValid(email)) {
                 delete this.errors.invalidEmailError;
 
             }
@@ -46,14 +46,14 @@ class Validator {
              let emailUnique = true;
 
 
-             if(userDB.length > 0){
-                 usersDB.forEach{ (userObj) => {
+             if(usersDB.length > 0){
+                 usersDB.forEach( (userObj) => {
                    //si el email ya está registrado cambia el valor a false
                     if (userObj.email === newEmail){
                     emailUnique = false;
                      }
-                 }
-             }
+                 })
+                }
          if (emailUnique) {
              //quitar el mensaje error
              delete this.errors.emailExistsError;
@@ -69,7 +69,7 @@ class Validator {
 
         //validar la longitud del password
         validatePassword = (password) =>{
-            if (password.length > 6) {
+            if (password.length > 4) {
                 // quita el mensaje de error
                 delete this.errors.passwordError;
 
@@ -81,7 +81,7 @@ class Validator {
         }
 
         // validar si los dos campos coinciden password y repeatpasswors
-        validatePasswordRepeat = (password) => {
+        validatePasswordRepeat = (password, passwordRepeat) => {
 
             if (password === passwordRepeat) {
                 //si los passwords son iguales, quitar el error
@@ -110,5 +110,5 @@ class Validator {
 
 
 
-}
+
 const validator = new Validator();
