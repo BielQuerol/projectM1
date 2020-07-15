@@ -8,15 +8,77 @@ body    {
     
     font-family: 'Libre Baskerville';
 }
-/*Homepage*/
+/*Index page*/
+
+.row .front {
+    background-image: url("./../images/lindyhop3.jpg");
+    max-width: 100%;
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding-top: 50px;
+    position: relative;
+    border-radius:15px;
+    border: black solid 4px;
+}
+article    {
+        color: #c3463e;
+        text-align: center;
+        position: relative;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+
+}
+
+
+
+
+
 .color1{
     background:#ebdf60 ;
+    background-image: url("./../images/nen\ trist.jpg");
+    max-width: 100%;
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  padding-top: 50px;
+  position: relative;
+  border-radius: 15px;
+  border: black solid 4px;
+
+  
 }
 .color2{
     background: #c3463e;
+    background-image: url("./../images/nena\ enfadada2.jpg");
+    max-width: 100%;
+  background-position: -5 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  padding-top: 50px;
+  position: relative;
+  border-radius: 15px;
+  border: black solid 4px;
+  
 }
 .color3{
     background: #ebdf60;
+    background-image: url("./../images/1952.jpg");
+    max-width: 100%;
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  padding-top: 50px;
+  position: relative;
+  border-radius: 15px;
+  border: black solid 4px;
+  
 }
 .header      {
     height: 100px;
@@ -26,10 +88,6 @@ body    {
 }  
 .section      {
     height: 300px;
-}
-.camera  {
-    max-width: 100%;
-   
 }
 p   {
     color: #c3463e;
@@ -71,6 +129,7 @@ h3           {
 	align-items: center;
     align-content: stretch;
     background-color:#c3463e;
+    border-radius:15px;
 }
 .headcontainer img  {
     width: 100px;
@@ -97,8 +156,8 @@ nav a   {
 
 /*sad*/
 .myButton {
-	box-shadow:inset 0px 39px 0px -24px #e67a73;
-	background-color:#e4685d;
+	box-shadow:inset 0px 39px 0px -24px #c3463e;
+	background-color:#b92013;
 	border-radius:4px;
 	border:1px solid #ffffff;
 	display:inline-block;
@@ -108,7 +167,9 @@ nav a   {
 	font-size:15px;
 	padding:6px 15px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #b23e35;
+    text-shadow:0px 1px 0px #b23e35;
+    margin-top:1px;
+    
 }
 .myButton:hover {
 	background-color:#eb675e;
@@ -120,7 +181,7 @@ nav a   {
 /*angry*/
 .myButton2 {
 	box-shadow:inset 0px 39px 0px -24px #e2d520;
-	background-color:#e2d520;
+	background-color:#c2b60e;
 	border-radius:4px;
 	border:1px solid #ffffff;
 	display:inline-block;
@@ -130,7 +191,8 @@ nav a   {
 	font-size:15px;
 	padding:6px 15px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #b23e35;
+    text-shadow:0px 1px 0px #b23e35;
+    margin-top:1px;
 }
 .myButton:hover {
 	background-color:#eb675e;
@@ -142,7 +204,7 @@ nav a   {
 /* happy*/
 .myButton3 {
 	box-shadow:inset 0px 39px 0px -24px #4ce053;
-	background-color:#44e768;
+	background-color:#14c039;
 	border-radius:4px;
 	border:1px solid #ffffff;
 	display:inline-block;
@@ -152,7 +214,8 @@ nav a   {
 	font-size:15px;
 	padding:6px 15px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #b23e35;
+    text-shadow:0px 1px 0px #b23e35;
+    margin-top:0.5px;
 }
 .myButton:hover {
 	background-color:#eb675e;
@@ -249,5 +312,7 @@ h6    {
     align-items: center;
     box-sizing: content-box;
 }
+
+
 /*Faqs*/
 
