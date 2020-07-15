@@ -5,11 +5,6 @@ body    {
     padding: 0;
     font-family: 'Libre Baskerville';
 }
-.front   {
-    background-image: url;
-}
-
-
 .color1{
     background:#ebdf60 ;
 }
@@ -225,7 +220,7 @@ h6    {
     color: black;
 }
 .message-container p.correct-message {
-    background-color: rgb(47, 164, 93);
+    background-color: #c3463e;
     box-shadow: 0 0 10px #dbf1c1;
 }
 #result    {

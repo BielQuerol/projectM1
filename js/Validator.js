@@ -20,7 +20,7 @@ class Validator {
         validateValidEmail = (email) =>{
            
             
-            if (this.emailIssValid(email)) {
+            if (this.emailIsValid(email)) {
                 delete this.errors.invalidEmailError;
 
             }
@@ -46,7 +46,7 @@ class Validator {
              let emailUnique = true;
 
 
-             if(userDB.length > 0){
+             if(usersDB.length > 0){
                  usersDB.forEach( (userObj) => {
                    //si el email ya está registrado cambia el valor a false
                     if (userObj.email === newEmail){
@@ -81,7 +81,7 @@ class Validator {
         }
 
         // validar si los dos campos coinciden password y repeatpasswors
-        validatePasswordRepeat = (password) => {
+        validatePasswordRepeat = (password, passwordRepeat) => {
 
             if (password === passwordRepeat) {
                 //si los passwords son iguales, quitar el error
