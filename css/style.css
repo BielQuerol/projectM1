@@ -1,4 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
+body    {
+    
+    font-family: 'Libre Baskerville';
+}
+/*indexpage*/
+
+.col              {
+    background-image:url("./../images/jeremy-yap2.jpg");
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    position: relative;
+}
+article          {
+    color:white;
+    padding:10px;
+    margin-top: 30px;
+}
 .color1{
     background:#ebdf60 ;
 }
@@ -7,9 +31,6 @@
 }
 .color3{
     background: #ebdf60;
-}
-.color4{
-    background: #295ba7
 }
 .header      {
     height: 100px;
@@ -20,18 +41,9 @@
 .section      {
     height: 300px;
 }
-.principal  {
-    width: 100%;
-    position: relative;
-    display: inline-block;
-}
 p   {
     color: #c3463e;
-    position: absolute;
-    font-size: 1em;
-    bottom: 5px;
-    margin-left: auto;
-    margin-right: auto;
+   
 }
 html          {
     font-family: 'Libre Baskerville', serif;
@@ -39,46 +51,47 @@ html          {
     line-height: normal;
 }
 h1           {
-        font-size: 2rem;
-        color:#c3463e;
-        position: absolute;
-        margin-left: 250px;
-        top: 10px;
-
+        font-size: 3rem;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
 }
 h2           {
         font-size: 1.5rem;
         color:#c3463e;
-       
-        font-weight: bold ;
-}
-.login h2    {
-    font-size: 1.5rem;
-    color:#c3463e;
+        font-weight: bold;
+        margin-top: 50px;
+        text-align: center;
 }
 h3           {
     font-size: 1rem;
-    color: white;
-    margin-top: 50px;
-    margin-left: 600px;
-    margin-right: 100px;
+    color: #c3463e;
+    margin-top: 60px;
+    padding: 20px;
+    text-align: center;
 }
-.headcontainer         {
+
+/*head nav-bar*/
+
+
+.headcontainer   
+      {
     display: flex;
     flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
     align-content: stretch;
-    background-color:#c3463e ;
+    background-color:#c3463e;
 }
 .headcontainer img  {
     width: 100px;
+    margin-left:20px;
 }
-.headitem {
+.headitem2 {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
 nav a   {
     font-size: 20px;
@@ -88,14 +101,15 @@ nav a   {
     margin-left: 10px;
     margin-right: 10px;
     color:white;
+    max-width: 100%;
 }
 
-/*Botones state of mind*/
+/*Buttons state of mind*/
 
 /*sad*/
 .myButton {
 	box-shadow:inset 0px 39px 0px -24px #e67a73;
-	background-color:#e4685d;
+	background-color:#c3463e;
 	border-radius:4px;
 	border:1px solid #ffffff;
 	display:inline-block;
@@ -117,7 +131,7 @@ nav a   {
 /*angry*/
 .myButton2 {
 	box-shadow:inset 0px 39px 0px -24px #e2d520;
-	background-color:#e2d520;
+	background-color:#d1c408;
 	border-radius:4px;
 	border:1px solid #ffffff;
 	display:inline-block;
@@ -139,7 +153,7 @@ nav a   {
 /* happy*/
 .myButton3 {
 	box-shadow:inset 0px 39px 0px -24px #4ce053;
-	background-color:#44e768;
+	background-color:#28c249;
 	border-radius:4px;
 	border:1px solid #ffffff;
 	display:inline-block;
@@ -158,81 +172,93 @@ nav a   {
 	position:relative;
 	top:1px;
 }	
-/*login*/
-.signup {
-    margin-top: 85px;
+/*Signup*/
+.signup-form {
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding:20px;
+    margin:8% auto 0;
     text-align: center;
 }
-
-.login   {
-    margin-top: 85px;
-    text-align: center;
+.sign-upform  h2 {
+         color:#c3463e;
+         margin-bottom: 30px;
 }
-
-.form-wrapper{
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.form-wrapper > form{
-    display: flex;
-    flex-direction: column;
+.input-box  {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0 ;
     width: 100%;
-    max-width: 300px;
+    border: 1px solid #999;
+    outline: none;
 }
-
+button  {
+    color: #c3463e;
+    width: 100%;
+    padding: 10px;
+    border-radius:20px;
+    font-size:15px;
+    margin: 10px 0;
+    border: none;
+    outline:none;
+    cursor: pointer;
+}
+form  a       {
+    text-decoration: none;
+    color: #c3463e;
+}
+hr    {
+    margin-top :20px;
+    width: 80%;
+}
+h6    {
+    font-size: 1rem;
+    color:#c3463e;
+    background:#fff;
+    width: 20px;
+    margin: 19px auto 10px;
+}
+/* Login*/
+.login-form {
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding:20px;
+    margin:8% auto 0;
+    text-align: center;
+}
+.login-form  h2 {
+         color:#c3463e;
+         margin-bottom: 30px;
+}
 .message-container{
     width: 100%;
     max-width: 300px;
 }
-
-
 .message-container p{
     background-color:#ebdf60 ;
     padding: 20px;
     margin: 10px 0;
     color: black;
-
 }
-
 .message-container p.correct-message {
-    background-color: rgb(47, 164, 93);
+    background-color: #c3463e;
     box-shadow: 0 0 10px #dbf1c1;
 }
-/*  botón login */
-.myBtn {
-	box-shadow:inset 0px 1px 0px 0px #f7c5c0;
-	background:linear-gradient(to bottom, #eb5a50 5%, #e4685d 100%);
-	background-color:#eb5a50;
-	border-radius:6px;
-	border:1px solid #d83526;
-	display:inline-block;
-	cursor:pointer;
-	color:#fffaff;
-	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #b23e35;
-}
-.myBtn:hover {
-	background:linear-gradient(to bottom, #e4685d 5%, #eb5a50 100%);
-	background-color:#e4685d;
-}
-.myBtn:active {
-	position:relative;
-    top:1px;
-    
-}
+/*result*/
 #result    {
-    background-color: black ;
+    background-color:#fff ;
+    box-sizing: border-box;
+    max-width: 100%;
+    border: solid black 10px;
+    padding: 5px;
 }
-#result >  h2  {
-    margin-top: 10px;
-    margin-left: 900px;
-    
+.resultcontainer img {
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    box-sizing: content-box;
 }
+/*Faqs*/
+
