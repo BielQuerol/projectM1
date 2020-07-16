@@ -522,3 +522,23 @@ details     {
 details summary {
     outline:none;
 }
+
+}
+.faqs{
+    padding: 0 20px 20px;
+}
+::-webkit-details-marker{
+    float:right;
+    margin-top:3px;
+}
+details     {
+    background:#f6f6f6;
+    padding:10px 20px;
+    border-radius:15px;
+    margin-top:20px;
+    letter-spacing:1px;
+
+}
+details summary {
+    outline:none;
+}
