@@ -489,8 +489,36 @@ display: flex;
 }
 }
 /*Faqs*/
-.peli    {
-    width:100px;
-    height: 100px;
+.box{
+    width: 280px;
+    margin:100px auto;
+    background:#fff;
+    border-radius:15px;
+    box-shadow: 1px 2px 4px rgba(0,0,0,.3);
 }
+.box .content{
+    background:#c3463e;
+    border-radius:15px 15px 0px 0px;
+    padding: 10px;
+    color:#fff;
+    text-align:center;
 
+}
+.faqs{
+    padding: 0 20px 20px;
+}
+::-webkit-details-marker{
+    float:right;
+    margin-top:3px;
+}
+details     {
+    background:#f6f6f6;
+    padding:10px 20px;
+    border-radius:15px;
+    margin-top:20px;
+    letter-spacing:1px;
+
+}
+details summary {
+    outline:none;
+}
