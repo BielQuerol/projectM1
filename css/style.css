@@ -16,9 +16,6 @@ body    {
     font-family: 'Libre Baskerville';
 }
 /*Index page*/
-.color5     {
-    background-image: url("./../images/filmets.jpg")
-}
 .row .front {
     background-image: url("./../images/camara.jpg");
     max-width: 100%;
