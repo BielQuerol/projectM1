@@ -499,7 +499,6 @@ display: flex;
     padding: 10px;
     color:#fff;
     text-align:center;
-
 }
 .faqs{
     padding: 0 20px 20px;
@@ -599,7 +598,7 @@ details summary {
 		padding: 10px;
 	}
 	100% {
-		-webkit-transform:translateY(-10%);
+		-webkit-transform:translateY(0%);
 		padding: 11px;
 	}
 }
@@ -671,7 +670,7 @@ details summary {
 		padding: 10px;
 	}
 	100% {
-		-moz-transform:translateY(-10%);
+		-moz-transform:translateY(0%);
 		padding: 11px;
 	}
 }
@@ -743,11 +742,15 @@ details summary {
 		padding: 10px;
 	}
 	100% {
-		transform:translateY(-10%);
+		transform:translateY(0%);
 		padding: 11px;
 	}
 }
 .movie {
     max-width: 50%;
+    display:block;
+    margin:auto;
 }
+
+
     
