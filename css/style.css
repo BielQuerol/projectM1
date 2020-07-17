@@ -16,7 +16,9 @@ body    {
     font-family: 'Libre Baskerville';
 }
 /*Index page*/
-
+.color5     {
+    background-image: url("./../images/filmets.jpg")
+}
 .row .front {
     background-image: url("./../images/camara.jpg");
     max-width: 100%;
@@ -26,10 +28,6 @@ body    {
     height: 400px;
     padding-top: 50px;
     position: relative;
-   
-  
-    
-
 }
 article    {
         color: white;
@@ -61,15 +59,15 @@ article    {
     background: #c3463e;
     background-image: url("./../images/nena\ enfadada2.jpg");
     max-width: 100%;
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 800px;
-  padding-top: 50px;
-  position: relative;
-  border-radius: 15px;
-  border: black solid 4px;
-  display: flex;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    padding-top: 50px;
+    position: relative;
+    border-radius: 15px;
+    border: black solid 4px;
+    display: flex;
         justify-content: center;
         align-items: flex-end;
   
@@ -78,17 +76,17 @@ article    {
     background: #ebdf60;
     background-image: url("./../images/1952.jpg");
     max-width: 100%;
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 800px;
-  padding-top: 50px;
-  position: relative;
-  border-radius: 15px;
-  border: black solid 4px;
-  display: flex;
-        justify-content: center;
-        align-items: flex-end;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    padding-top: 50px;
+    position: relative;
+    border-radius: 15px;
+    border: black solid 4px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
   
 }
 .header      {
@@ -434,16 +432,20 @@ display: flex;
     article  {
         font-size:2vw;
         top: 15%;
-        margin-left: 10px;
-        margin-right:15px;
+        margin-left: 20px;
+        margin-right:50px;
     }
 }
 @media (min-width: 1440px) {
-    article  {
+    .headitem2 nav {
+        margin-right:55px;
+    }
+   
+   article  {
         font-size:2vw;
         top: 15%;
-        margin-left: 10px;
-        margin-right:15px;
+        margin-left: 20px;
+        margin-right:40px;
     }
     h1           {
         font-size:7vw;
@@ -459,13 +461,17 @@ display: flex;
 }
 }
 @media (min-width: 2460px) {
-    article  {
-        font-size:2vw;
-        top: 15%;
-        margin-left: 10px;
-        margin-right:15px;
+    
+    .headitem2 nav {
+        margin-right:80px;
     }
-    h1           {
+        article  {
+        font-size:1vw;
+        top: 15%;
+        margin-left: 40px;
+        margin-right:100px;
+    }
+        h1           {
         font-size:7vw;
 }
 .color3           {
@@ -512,4 +518,235 @@ details     {
 details summary {
     outline:none;
 }
+/*animation*/
+.end {
+    margin: 20px 0 0 20px;
+    display: flex;
+    justify-content: center;
+  }
 
+.ball   {
+    animation: bounce 15s;
+    align-content: center;
+}
+
+@-webkit-keyframes bounce {
+	0% {
+		-webkit-transform:translateY(0%);
+	}
+	5% {
+		-webkit-transform:translateY(-100%);
+	}
+	15% {
+		-webkit-transform:translateY(0%);
+		padding: 3px auto;
+	}
+	20% {
+		-webkit-transform:translateY(-140%);
+	}
+	25% {
+		-webkit-transform:translateY(0%);
+		padding: 4px auto;
+	}
+	30% {
+		-webkit-transform:translateY(-180%);
+	}
+	35% {
+		-webkit-transform:translateY(0%);
+		padding: 4px auto;
+	}
+	40% {
+		-webkit-transform:translateY(-220%);
+	}
+	45% {
+		-webkit-transform:translateY(0%);
+		padding: 4px auto;
+	}
+	50% {
+		-webkit-transform:translateY(-300%);
+	}
+	55% {
+		-webkit-transform:translateY(0%);
+		padding: 6px auto;
+	}
+	60% {
+		-webkit-transform:translateY(-500%);
+	}
+	65% {
+		-webkit-transform:translateY(0%);
+		padding: 7px auto;
+	}
+	70% {
+		-webkit-transform:translateY(50%);
+	}
+	75% {
+		-webkit-transform:translateY(-1400%);
+		padding: 8px auto;
+	}
+	80% {
+		-webkit-transform:translateY(75%);
+	}
+	85% {
+		-webkit-transform:translateY(-50%);
+		padding: 9px auto;
+	}
+	90% {
+		-webkit-transform:translateY(25%);
+	}
+	95% {
+		-webkit-transform:translateY(-25%);
+		padding: 10px;
+	}
+	100% {
+		-webkit-transform:translateY(-10%);
+		padding: 11px;
+	}
+}
+@-moz-keyframes bounce {
+	0% {
+		-moz-transform:translateY(0%);
+	}
+	5% {
+		-moz-transform:translateY(-100%);
+	}
+	15% {
+		-moz-transform:translateY(0%);
+		padding: 3px auto;
+	}
+	20% {
+		-moz-transform:translateY(-140%);
+	}
+	25% {
+		-moz-transform:translateY(0%);
+		padding: 4px auto;
+	}
+	30% {
+		-moz-transform:translateY(-180%);
+	}
+	35% {
+		-moz-transform:translateY(0%);
+		padding: 4px auto;
+	}
+	40% {
+		-moz-transform:translateY(-220%);
+	}
+	45% {
+		-moz-transform:translateY(0%);
+		padding: 4px auto;
+	}
+	50% {
+		-moz-transform:translateY(-300%);
+	}
+	55% {
+		-moz-transform:translateY(0%);
+		padding: 6px auto;
+	}
+	60% {
+		-moz-transform:translateY(-500%);
+	}
+	65% {
+		-moz-transform:translateY(0%);
+		padding: 7px auto;
+	}
+	70% {
+		-moz-transform:translateY(50%);
+	}
+	75% {
+		-moz-transform:translateY(-1400%);
+		padding: 8px auto;
+	}
+	80% {
+		-moz-transform:translateY(75%);
+	}
+	85% {
+		-moz-transform:translateY(-50%);
+		padding: 9px auto;
+	}
+	90% {
+		-moz-transform:translateY(25%);
+	}
+	95% {
+		-moz-transform:translateY(-25%);
+		padding: 10px;
+	}
+	100% {
+		-moz-transform:translateY(-10%);
+		padding: 11px;
+	}
+}
+@keyframes bounce {
+	0% {
+		transform:translateY(0%);
+	}
+	5% {
+		transform:translateY(-100%);
+	}
+	15% {
+		transform:translateY(0%);
+		padding: 3px auto;
+	}
+	20% {
+		transform:translateY(-140%);
+	}
+	25% {
+		transform:translateY(0%);
+		padding: 4px auto;
+	}
+	30% {
+		transform:translateY(-180%);
+	}
+	35% {
+		transform:translateY(0%);
+		padding: 4px auto;
+	}
+	40% {
+		transform:translateY(-220%);
+	}
+	45% {
+		transform:translateY(0%);
+		padding: 4px auto;
+	}
+	50% {
+		transform:translateY(-300%);
+	}
+	55% {
+		transform:translateY(0%);
+		padding: 6px auto;
+	}
+	60% {
+		transform:translateY(-500%);
+	}
+	65% {
+		transform:translateY(0%);
+		padding: 7px auto;
+	}
+	70% {
+		transform:translateY(50%);
+	}
+	75% {
+		transform:translateY(-1400%);
+		padding: 8px auto;
+	}
+	80% {
+		transform:translateY(75%);
+	}
+	85% {
+		transform:translateY(-50%);
+		padding: 9px auto;
+	}
+	90% {
+		transform:translateY(25%);
+	}
+	95% {
+		transform:translateY(-25%);
+		padding: 10px;
+	}
+	100% {
+		transform:translateY(-10%);
+		padding: 11px;
+	}
+}
+.movie {
+    max-width: 50%;
+}
+    
