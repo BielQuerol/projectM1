@@ -76,19 +76,6 @@ article    {
     background: #ebdf60;
     background-image: url("./../images/1952.jpg");
     max-width: 100%;
-<<<<<<< HEAD
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 800px;
-  padding-top: 50px;
-  position: relative;
-  border-radius: 15px;
-  border: black solid 4px;
-  display: flex;
-        justify-content: center;
-        align-items: flex-end;
-=======
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -101,7 +88,6 @@ article    {
     justify-content: center;
     align-items: flex-end;
   
->>>>>>> master
 }
 
 
@@ -449,31 +435,13 @@ display: flex;
     article  {
         font-size:1vw;
         top: 15%;
-<<<<<<< HEAD
-        margin-left: 10px;
-        margin-right:30px;
-=======
         margin-left: 20px;
         margin-right:50px;
->>>>>>> master
     }
    
 }
 @media (min-width: 1440px) {
     .headitem2 nav {
-<<<<<<< HEAD
-        margin-right:25px;
-}
-    h1          {
-        font-size:6vw;
-    }
-    
-    article  {
-        font-size:1vw;
-        top: 12%;
-        margin-left: 10px;
-        margin-right:35px;
-=======
         margin-right:55px;
     }
    
@@ -482,7 +450,6 @@ display: flex;
         top: 15%;
         margin-left: 20px;
         margin-right:40px;
->>>>>>> master
     }
     h1           {
         font-size:7vw;
@@ -498,13 +465,6 @@ display: flex;
 }
 }
 @media (min-width: 2460px) {
-<<<<<<< HEAD
-    article  {
-        font-size:1vw;
-        top: 10%;
-        margin-left: 10px;
-        margin-right:25px;
-=======
     
     .headitem2 nav {
         margin-right:80px;
@@ -514,7 +474,6 @@ display: flex;
         top: 15%;
         margin-left: 40px;
         margin-right:100px;
->>>>>>> master
     }
         h1           {
         font-size:7vw;
@@ -570,27 +529,6 @@ details summary {
     justify-content: center;
   }
 
-<<<<<<< HEAD
-}
-.faqs{
-    padding: 0 20px 20px;
-}
-::-webkit-details-marker{
-    float:right;
-    margin-top:3px;
-}
-details     {
-    background:#f6f6f6;
-    padding:10px 20px;
-    border-radius:15px;
-    margin-top:20px;
-    letter-spacing:1px;
-
-}
-details summary {
-    outline:none;
-}
-=======
 .ball   {
     animation: bounce 15s;
     align-content: center;
@@ -816,4 +754,3 @@ details summary {
     max-width: 50%;
 }
     
->>>>>>> master
